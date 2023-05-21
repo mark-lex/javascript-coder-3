@@ -103,9 +103,17 @@ header {
             .btn {
                 display: flex;
                 align-items: center;
+                color: nth($text-colour , 3 );
                 &:hover{
                     color: nth($text-colour , 1 );
                     background-color: $bg-colour-white;
+                }
+                a {
+                    text-decoration: none;
+                    color: nth($text-colour , 3 );
+                    &:hover{
+                        color: nth($text-colour , 1 );
+                    }
                 }
                 i {
                     font-size: nth($font-size , 8 );
